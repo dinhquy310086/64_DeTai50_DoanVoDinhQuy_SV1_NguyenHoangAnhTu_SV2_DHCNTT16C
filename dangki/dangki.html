@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng kí thành viên</title>
+  <link rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.css">
+  <!-- carousel -->
+  <link rel="stylesheet" href="../slick/slick-theme.css">
+  <link rel="stylesheet" href="../slick/slick.css">
+  <script src="../JS/jquery-3.6.0.min.js"></script>
+  <script src="../bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+
+  <link href="./dangki.css" rel="stylesheet">
+  <script src="./valid.js"></script>
+
+
+</head>
+
+
+<body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <nav class="navbar navbar-expand-md nav-top"></nav>
+            <div class="container-fluid bg-info">
+              <div class="row text-white">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center py-3">
+                  <h2 class="text">PET SHOP</h2>
+                </div>
+                
+  
+            </div>
+        </div>
+      </div>
+  
+    </div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12">
+            <h4 style="text-align: center;">Thông tin đăng kí</h4>
+            <table class="table table-striped" role="table">
+                <tr>
+                    <th>Tên</th>
+                    <th>SDT</th>
+                    <th>Ngày sinh</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+                <tbody id="addRow">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="text-align: center;">THÔNG TIN ĐĂNG KÍ</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" class="form-horizontal" style="margin-top:10px";>
+                        <label for="Name" class="control-lable col-xs-3">Họ tên</label>
+                        <div class="col-xs-9">
+                            <input type="text" id="txtTen" class="form-control">
+                            <span class="text-danger" id="tbTen">*</span>
+                        </div>
+                        
+                        <label for="SDT" class="control-lable col-xs-3">Số điện thoại</label>
+                        <div class="col-xs-9">
+                            <input type="text" id="txtSDT" class="form-control">
+                            <span class="text-danger" style="color: red;" id="tbSDT">*</span>
+                        </div>
+
+                        <label for="NS" class="control-lable col-xs-3">Ngày Sinh</label>
+                        <div class="col-xs-9">
+                            <input type="date" id="txtNS" class="form-control date">
+                            <span class="text-danger" style="color: red;" id="tbNS">*</span>
+                        </div>
+
+                        <label for="email"class="control-lable col-xs-3">Email</label>
+                        <div class="col-xs-9">
+                            <input type="email" id="txtemail" class="form-control">
+                            <span class="text-danger" style="color: red;" id="tbemail">*</span>
+                        </div>
+
+                        <label for="pwd" class="control-lable col-xs-3">Mật khẩu</label>
+                        <div class="col-xs-9">
+                            <input type="password" id="pwd" class="form-control">
+                            <span class="text-danger" style="color: red;" id="tbpwd">*</span>
+                        </div>
+
+                        <label for="repwd" class="control-lable col-xs-3">Nhập lại Mật khẩu</label>
+                        <div class="col-xs-9">
+                            <input type="password" id="repwd" class="form-control">
+                            <span class="text-danger" style="color: red;" id="tbrepwd">*</span>
+                        </div>
+
+                        <button class="btn btn-success btn-group-justified" id="btnSave" type="button" style="color:white;
+                        background-color: green;width:100%;" >Đăng ký</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<footer>
+    <div class="container fluid mt-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12  pt-3">
+          <h2 class="logo">PET SHOP</h2>
+
+        </div>
+        <div class="col-md-3 col-sm-6  pt-2">
+          <p>Hotline</p>
+          <h3>0967.188.129
+            0xxx.xxx.xxx
+          </h3>
+        </div>
+        <div class="col-md-3 col-sm-6 ">
+          <img src="../img/icon/icon_face.png" alt="" width="35%" class="footer-icon">
+          <img src="../img/icon/you.png" alt="" width="30%" class="footer-icon">
+          <img src="../img/icon/inter.png" alt="" width="30%" class="footer-icon">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9  pt-3">
+          <table class="table-footer">
+            <thead>
+              <tr>
+                <th>Sản phẩm và dịch vụ</th>
+                <th>Chính sách</th>
+                <th>PET SHOP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tư vấn-Hỏi đáp</td>
+                <td>Vận chuyển</td>
+                <td>Thông tin</td>
+              </tr>
+              <tr>
+                <td>Các loại thức ăn</td>
+                <td>Thanh toán</td>
+                <td>Chất lượng</td>
+              </tr>
+              <tr>
+                <td>Đồ chơi cho thú cưng</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+
+.my-md-4 header-links a{
+    color: aliceblue !important;
+}
+
+
+.nav a{
+    color: aliceblue;
+}
+.nav-top{
+    padding: 0;
+}
+
+header{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+main{
+    font-family: 'Roboto', sans-serif;
+
+}
+.gachchu{
+    text-decoration: line-through;
+}
+
+.form-control{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hangmoi-sm {
+      display: block;
+      font-size: 10px;
+    }
+    .hangmoi-sm h5,h4,h6{
+        font-size: 12px;
+    }
+    .hangmoi-sm button{
+        font-size: 10px;
+    }
+    .pc img{
+        width: 17rem;
+    }
+
+  }
+  .mess{
+      float: left;
+      left: 70%;
+      bottom: 2%;
+  }
+.tuoi{
+    width: 15%;
+    border-radius: 20px;
+    border: 1px;
+}
+.tuoi:hover{
+    border: 2px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.39);
+}
+.gia{
+    width: 150px;
+}
+.card-food:hover{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.39);
+}
+
+footer{
+    background-color: rgb(2, 17, 59);
+    color: aliceblue;
+}
+.table-footer{
+    color: aliceblue;
+    border: none ;
+    width: 100%;
+}
+.table-footer tbody tr td{
+    color: rgb(167, 168, 168);
+}
+.dropdown{
+    display: block;
+}
+    
+
+/* slick */
+
+
+.slick-slide {
+margin:0px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+.card:hover{
+  width: 1005%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+
+

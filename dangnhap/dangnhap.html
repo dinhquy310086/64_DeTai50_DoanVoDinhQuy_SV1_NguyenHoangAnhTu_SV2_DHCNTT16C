@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập</title>
+  <link rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.css">
+  <!--slick carousel -->
+  <link rel="stylesheet" href="../slick/slick-theme.css">
+  <link rel="stylesheet" href="../slick/slick.css">
+  <!--slick carousel -->
+  <script src="../JS/jquery-3.6.0.min.js"></script>
+  <script src="../bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+  <link href="./dangnhap.css" rel="stylesheet">
+  <script src="./checkdn.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <nav class="navbar navbar-expand-md nav-top"></nav>
+          <div class="container-fluid bg-info">
+            <div class="row text-white">
+              <div class="col-md-4"></div>
+              <div class="col-md-4 text-center py-3">
+                <h2 class="text">PET SHOP</h2>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <div class="container">
+    <div class="col-xs-12">
+      <h4 style="text-align: center;">Thông tin đăng nhập</h4>
+      <table class="table table-striped" role="table">
+          <tr>
+              <th>Email</th>
+              <th>Mật khẩu</th>
+          </tr>
+          <tbody id="dangnhap"></tbody>
+      </table>
+  </div>
+</div>
+<div class="modal fade" role="dialog" id="myModal">
+  <div class="modal-dialog">
+      <div class="modal-content">
+
+                  <!--Modal Header -->
+                  <div class="modal-header modal-css">
+                    <h2 class="modal-title">Đăng nhập</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body modal-css">
+                    <form action="">
+                      <div class="form-group">
+                        <label for="">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email"
+                          name="email">
+                        <span class="text-danger" style="color: red;" id="tbemail">*</span>
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                          name="pswd">
+                      <div class="dangk">
+                        <a href="../dangki/dangki.html">Hoặc đăng ký tài khoản mới</a>
+                      </div>
+                    </form>
+
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer modal-css">
+                    <button type="button" class="btn btn-info m-auto" data-dismiss="modal" id="btndn">Đăng nhập</button>
+                  </div>
+
+      </div>
+  </div>
+
+  </div>
+</header>
+<footer>
+  <div class="container fluid mt-5">
+    <div class="row">
+      <div class="col-md-6 col-sm-12  pt-3">
+        <h2 class="logo">PET SHOP</h2>
+
+      </div>
+      <div class="col-md-3 col-sm-6  pt-2">
+        <p>Hotline</p>
+        <h3>0967.188.129
+          0xxx.xxx.xxx
+        </h3>
+      </div>
+      <div class="col-md-3 col-sm-6 ">
+        <img src="../img/icon/icon_face.png" alt="" width="35%" class="footer-icon">
+        <img src="../img/icon/you.png" alt="" width="30%" class="footer-icon">
+        <img src="../img/icon/inter.png" alt="" width="30%" class="footer-icon">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-9  pt-3">
+        <table class="table-footer">
+          <thead>
+            <tr>
+              <th>Sản phẩm và dịch vụ</th>
+              <th>Chính sách</th>
+              <th>PET SHOP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tư vấn-Hỏi đáp</td>
+              <td>Vận chuyển</td>
+              <td>Thông tin</td>
+            </tr>
+            <tr>
+              <td>Các loại thức ăn</td>
+              <td>Thanh toán</td>
+              <td>Chất lượng</td>
+            </tr>
+            <tr>
+              <td>Đồ chơi cho thú cưng</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>
